@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Sono', sans-serif;
+    color: #beadad ;
+    font-weight: 600;
+}
+
+
+.cabeçalho {
+    background-color: #000000;
+     display: flex;
+     flex-direction: initial;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 20px 3px;
+}
+
+
+.Cabeçalho-1 {
+    gap: ;
+}
+
+
+.cabeçalho-img {
+    height: 50px;
+}
+
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 50px;
+}
+
+
+.Cabeçalho-1 {
+    font-family: 'Sono', sans-serif;
+    color: #beadad ;
+    font-weight: 600;
+}
+
+
+.Conteudo {
+    background-image: url(https://tm.ibxk.com.br/2021/10/20/20104736219113.jpg);
+    /* background-attachment: fixed; */
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    
+}
+
+
+.Conteudo {
+    margin-bottom: 40px;
+}
+
+
+.Conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    padding: 300px;
+    padding-right: 500px;
+}
+
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Sono', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #beadad ;
+}
+
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sono', sans-serif;
+    color: #beadad
+}
+
+
+.conteudo-principal-escrito-botao {
+    background-color: #beadad;
+    width: 250px;
+    height: 50px;
+    border: none;
+    box-shadow:4px 5px 4px #a3969628;
+    border-radius: 30px;
+    color: #000000 ;
+}
+
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(80, 75, 75, 0.792);
+}
+
+
+.conteudo-principal-imagem {
+    height: 200px;
+}
+
+
+.conteudo-secundario {
+    color:#beadad ;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+footer {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    background-color: rgb(0, 0, 0);
+    padding-top: 25px;
+    text-align: center;
+    
+    
+}
+ 
+
+::-webkit-scrollbar {
+    background-color: #000000;
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background-color: #beadad;
+}
+
+
+::-webkit-scrollbar-corner {
+    background-color: #000000;
+}
